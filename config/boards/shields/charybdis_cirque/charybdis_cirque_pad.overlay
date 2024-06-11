@@ -1,0 +1,15 @@
+#include "charybdis_cirque.dtsi"
+
+&default_transform {
+    col-offset = <15>;
+};
+
+&kscan0 {
+    diode-direction = "col2row";
+    col-gpios
+        = <&gpio1 0 (GPIO_ACTIVE_HIGH)> // COL0
+        , <&gpio0 11 (GPIO_ACTIVE_HIGH)> // COL1
+        , <&gpio1 4 (GPIO_ACTIVE_HIGH)> // COL2
+        , <&gpio1 6 (GPIO_ACTIVE_HIGH)> // COL3
+    ;
+};
