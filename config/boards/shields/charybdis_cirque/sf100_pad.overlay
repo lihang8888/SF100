@@ -1,4 +1,4 @@
-#include "charybdis_cirque.dtsi"
+#include "sf100.dtsi"
 
 &default_transform {
     col-offset = <15>;

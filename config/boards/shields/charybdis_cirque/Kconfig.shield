@@ -1,8 +1,14 @@
-config SHIELD_CHARYBDIS_CIRQUE_LEFT
-    def_bool $(shields_list_contains,charybdis_cirque_left)
+config SHIELD_SF100_LEFT
+    def_bool $(shields_list_contains,sf100_left)
 
-config SHIELD_CHARYBDIS_CIRQUE_RIGHT
-    def_bool $(shields_list_contains,charybdis_cirque_right)
+config SHIELD_SF100_LEFT_CENTRAL
+    def_bool $(shields_list_contains,sf100_left_central)
 
-config SHIELD_CHARYBDIS_CIRQUE_PAD
-    def_bool $(shields_list_contains,charybdis_cirque_pad)
+config SHIELD_SF100_RIGHT
+    def_bool $(shields_list_contains,sf100_right)
+
+config SHIELD_SF100_PAD
+    def_bool $(shields_list_contains,sf100_pad)
+
+config SHIELD_SF100_DONGLE
+    def_bool $(shields_list_contains,sf100_dongle)
