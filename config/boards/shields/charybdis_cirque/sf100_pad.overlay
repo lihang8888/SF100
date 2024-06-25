@@ -6,7 +6,6 @@
 
 &kscan0 {
     diode-direction = "col2row";
-    wakeup-source;
     col-gpios
         = <&gpio1 0 (GPIO_ACTIVE_HIGH)> // COL0
         , <&gpio0 11 (GPIO_ACTIVE_HIGH)> // COL1
