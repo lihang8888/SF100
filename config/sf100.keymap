@@ -24,12 +24,12 @@
 
         fn_layer {
             bindings = <
-&trans         &trans    &trans    &trans         &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans         &trans              &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans         &kp SCROLLLOCK  &trans  &trans  &trans  &trans
-&trans         &kp N7    &kp N8    &kp N9         &kp N0      &kp MINUS          &kp EQUAL        &trans  &trans         &trans              &trans      &trans             &trans           &trans         &trans          &trans  &trans  &trans  &trans
-&kp BACKSPACE  &trans    &kp UP    &kp BACKSPACE  &kp RET     &kp Y                               &kp T   &trans         &trans              &trans      &trans             &trans           &trans         &trans          &trans  &trans  &trans  &trans
-&kp DELETE     &kp LEFT  &kp DOWN  &kp RIGHT      &kp DELETE  &kp H                               &kp G   &trans         &trans              &trans      &trans             &trans           &trans         &kp HOME        &trans  &trans  &trans
-&trans         &trans    &trans    &trans         &kp M       &kp N                               &kp B   &trans         &trans              &trans      &trans             &trans           &kp PAGE_UP    &kp END         &trans  &trans  &trans  &trans
-&trans         &trans    &trans    &trans         &trans                                                  &kp BACKSPACE  &kp K_CONTEXT_MENU  &trans      &kp DELETE         &kp HOME         &kp PAGE_DOWN  &kp END         &trans  &trans  &trans
+&trans         &trans    &trans    &trans      &kp C_MUTE     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans         &trans              &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans         &kp SCROLLLOCK  &trans  &trans  &trans  &trans
+&trans         &kp N7    &kp N8    &kp N9      &kp N0         &kp MINUS          &kp EQUAL        &trans  &trans         &trans              &trans      &trans             &trans           &trans         &trans          &trans  &trans  &trans  &trans
+&kp BACKSPACE  &trans    &kp UP    &kp DELETE  &kp BACKSPACE  &kp Y                               &kp T   &trans         &trans              &trans      &trans             &trans           &trans         &trans          &trans  &trans  &trans  &trans
+&kp DELETE     &kp LEFT  &kp DOWN  &kp RIGHT   &kp ENTER      &kp H                               &kp G   &trans         &trans              &trans      &trans             &trans           &trans         &kp HOME        &trans  &trans  &trans
+&trans         &trans    &trans    &trans      &kp M          &kp N                               &kp B   &trans         &trans              &trans      &trans             &trans           &kp PAGE_UP    &kp END         &trans  &trans  &trans  &trans
+&trans         &trans    &trans    &trans      &trans                                                     &kp BACKSPACE  &kp K_CONTEXT_MENU  &trans      &kp DELETE         &kp HOME         &kp PAGE_DOWN  &kp END         &trans  &trans  &trans
             >;
         };
 
